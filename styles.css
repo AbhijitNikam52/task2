@@ -239,3 +239,54 @@ button:hover {
 }
 
 
+.form {
+    display: flex; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f0cccf;
+    }
+    
+.contact-form {
+     display: flex;
+     background: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     max-width: 500px;;
+     margin-left: 550px;
+    }
+.contact-form h1 {
+    margin-bottom: 20px;
+    }
+.contact-form label {
+     display: block;
+     margin-bottom: 8px;
+     font-weight: bold;
+     color: black;
+    }
+    
+.contact-form input,.contact-form textarea {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 15px;
+     border-radius: 4px;
+     font-size: 14px;
+    }
+    
+.contact-form button {
+     width: 100%;
+     padding: 10px;
+     background-color: #ff4d4d;
+     color: #fff;
+     border: none;
+     border-radius: 10px;
+     font-size: 16px;
+     cursor: pointer;
+    }
+.contact-form button:hover {
+     background-color: orangered;
+    }
+
+
