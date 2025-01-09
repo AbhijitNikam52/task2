@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 1.6; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background: black;
+    padding: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 5px; 
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    color: aqua;
+    background-color: #FF2849;
+}
+
+.hero {
+    height: 80vh;
+    background-image: url('https://assets.nicepagecdn.com/11a8ddce/3502986/images/pexels-photo-733500.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.hero::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.hero .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero .hero-content .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: #FF2849;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero .hero-content .btn:hover {
+    background: #e02040;
+} 
+
+/* Container setup */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    background-color: #f0cccf;
+    padding: 50px;
+    box-sizing: border-box;
+    max-width: 1550px;
+    margin: 0 auto; 
+}
+
+.card {
+    width: 30%; 
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px; 
+}
+
+
+.card h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+}
+
+.contact-item {
+    width: 48%; 
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 16px;
+}
+
+  /* Section Styles */
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .contact-item {
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .text-section h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .text-section p {
+    font-size: 1rem;
+  }
+
+  .fa-solid{
+    padding: 10px;
+  }
+  
+  .highlight-box {
+    background-color: orange;
+    height: 300px;
+  }
+  
+  .highlight-box p {    
+    font-size: 1rem;
+    color: whitesmoke;
+  }
+  
+  .highlight-box .important {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+  }
+
+/* Button styling */
+button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+}
+
+.btn{
+    background-color: #ff4d4d;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 25%;
+    padding: 15px;
+}
+
+
